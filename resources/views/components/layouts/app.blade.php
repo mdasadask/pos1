@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    
+
     <meta charset="utf-8" />
     <meta content="We Provide The Services Which Works For You - itoblige" name="description" />
     <meta name="keywords" content="itoblige.com pos, itoblige pos, itoblige pos, pos product in bangladesh" />
@@ -13,12 +13,30 @@
 
     <!-- App favicon -->
     <link rel="shortcut icon" href="logo/itoblige.png?v=1" type="image/png" />
-   
-    {{-- Vite css assets here  --}}
-    @vite(['resources/css/app.css'])
-    {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
-    
+
+    <!--plugins-->
+    <link href="assets/plugins/vectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
+    <link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
+    <link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
+    <link href="assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" />
+    <!-- loader-->
+    <link href="assets/css/pace.min.css" rel="stylesheet" />
     <script src="assets/js/pace.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-extended.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="assets/css/app.css" rel="stylesheet">
+    <link href="assets/css/icons.css" rel="stylesheet">
+    <!-- Theme Style CSS -->
+    <link rel="stylesheet" href="assets/css/dark-theme.css" />
+    <link rel="stylesheet" href="assets/css/semi-dark.css" />
+    <link rel="stylesheet" href="assets/css/header-colors.css" />
+
+    {{-- Vite css assets here  --}}
+    {{-- @vite(['resources/css/app.css']) --}}
+    {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
+
 </head>
 
 <body>
@@ -72,8 +90,7 @@
                     <ul>
                         <li> <a href="#" wire:navigate><i class='bx bx-radio-circle'></i>Sign In</a>
                         </li>
-                        <li> <a href="##" wire:navigate><i
-                                    class='bx bx-radio-circle'></i>Sign Out</a>
+                        <li> <a href="##" wire:navigate><i class='bx bx-radio-circle'></i>Sign Out</a>
                         </li>
                     </ul>
                 </li>
