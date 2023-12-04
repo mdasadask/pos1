@@ -2,30 +2,23 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--favicon-->
-    <link rel="icon" href="assets/images/favicon-32x32.png" type="image/png" />
-    <!--plugins-->
-    <link href="assets/plugins/vectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet" />
-    <link href="assets/plugins/simplebar/css/simplebar.css" rel="stylesheet" />
-    <link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet" />
-    <link href="assets/plugins/metismenu/css/metisMenu.min.css" rel="stylesheet" />
-    <!-- loader-->
-    <link href="assets/css/pace.min.css" rel="stylesheet" />
+    
+    <meta charset="utf-8" />
+    <meta content="We Provide The Services Which Works For You - itoblige" name="description" />
+    <meta name="keywords" content="itoblige.com pos, itoblige pos, itoblige pos, pos product in bangladesh" />
+    <meta content="itoblige.com" name="author" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
+    <title>{{ $title ?? 'Page Title' }} : itoblige POS</title>
+
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="logo/itoblige.png?v=1" type="image/png" />
+   
+    {{-- Vite css assets here  --}}
+    @vite(['resources/css/app.css'])
+    {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
+    
     <script src="assets/js/pace.min.js"></script>
-    <!-- Bootstrap CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-extended.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <link href="assets/css/app.css" rel="stylesheet">
-    <link href="assets/css/icons.css" rel="stylesheet">
-    <!-- Theme Style CSS -->
-    <link rel="stylesheet" href="assets/css/dark-theme.css" />
-    <link rel="stylesheet" href="assets/css/semi-dark.css" />
-    <link rel="stylesheet" href="assets/css/header-colors.css" />
-    <title>Rocker - Bootstrap 5 Admin Dashboard Template</title>
 </head>
 
 <body>
@@ -35,10 +28,10 @@
         <div class="sidebar-wrapper" data-simplebar="true">
             <div class="sidebar-header">
                 <div>
-                    <img src="assets/images/logo-icon.png" class="logo-icon" alt="logo icon">
+                    <img src="logo/itoblige.png" class="logo-icon" alt="itoblige logo">
                 </div>
                 <div>
-                    <h4 class="logo-text">Rocker</h4>
+                    <h4 class="logo-text">ITOBLIGE</h4>
                 </div>
                 <div class="toggle-icon ms-auto"><i class='bx bx-arrow-back'></i>
                 </div>
@@ -809,7 +802,7 @@
         <!--End Back To Top Button-->
 
         <footer class="page-footer">
-            <p class="mb-0">Copyright © 2022. All right reserved.</p>
+            <p class="mb-0">Copyright © 2023. All right reserved.</p>
         </footer>
     </div>
     <!--end wrapper-->
@@ -996,6 +989,9 @@
     </div>
     <!--end switcher-->
 
+    {{-- Vite js assets here  --}}
+    {{-- @vite(['resources/css/app.js']) --}}
+
     <!-- Bootstrap JS -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 
@@ -1011,6 +1007,7 @@
 
     <!--app JS-->
     <script src="assets/js/app.js"></script>
+
     <script>
         new PerfectScrollbar(".app-container")
     </script>

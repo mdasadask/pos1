@@ -1,3 +1,24 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+/* plugins */
+@import url("../backend/assets/plugins/vectormap/jquery-jvectormap-2.0.2.css");
+@import url("../backend/assets/plugins/simplebar/css/simplebar.css");
+@import url("../backend/assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css");
+@import url("../backend/assets/plugins/metismenu/css/metisMenu.min.css");
+
+/* loader */
+@import url("../backend/assets/css/pace.min.css");
+
+/* Bootstrap CSS */
+@import url("../backend/assets/css/bootstrap.min.css");
+@import url("../backend/assets/css/bootstrap-extended.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+@import url("../backend/assets/css/app.css");
+@import url("../backend/assets/css/icons.css");
+
+/* Theme Style CSS */
+@import url("../backend/assets/css/dark-theme.css");
+@import url("../backend/assets/css/semi-dark.css");
+@import url("../backend/assets/css/header-colors.css");
+
